@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Wireless Mouse",
+      "price": 25.99,
+      "stock": 100
+    },
+    {
+      "id": 102,
+      "name": "Keyboard",
+      "price": 45.5,
+      "stock": 50
+    }
+  ],
+  "cart": [
+    {
+      "userId": 1,
+      "items": [
+        {
+          "productId": 101,
+          "quantity": 2
+        },
+        {
+          "productId": 102,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
