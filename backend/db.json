@@ -1,19 +1,76 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "John Doe"
+      "id": "1",
+      "username": "John Doe",
+      "email": "abhi@sda.com",
+      "password": "123456",
+      "isActive": false
+    },
+    {
+      "id": "_fl_U7ylLf_PQjnh1et48",
+      "username": "abhishek",
+      "email": "abhishekjadhav862003@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "l21foc9q7EXjjimWJX1Om",
+      "username": "akash",
+      "email": "aksh@sda.com",
+      "password": "42342"
+    },
+    {
+      "id": "5OW__Qcsxgn-EsjNqAR4t",
+      "username": "abhishek",
+      "email": "abhishekjadhav862003@gmail.com",
+      "password": "4324324",
+      "isActive": true
+    },
+    {
+      "id": "lWhq3k2oVqMNABsxD_lLp",
+      "username": "anuja",
+      "email": "anu@gmail.com",
+      "password": "12345",
+      "isActive": true
+    },
+    {
+      "id": "IvPOcx9sS8s1rtAQie01M",
+      "username": "akash",
+      "email": "ak@gmail.com",
+      "password": "1234",
+      "isActive": true
+    },
+    {
+      "id": "mTJVhmyABq9hYaKmV_iyn",
+      "username": "abhishek",
+      "email": "abhi@gmail.com",
+      "password": "1234",
+      "isActive": true
+    },
+    {
+      "id": "J7QzL7SSAXDh9Vcqsnsay",
+      "username": "ajay",
+      "email": "ajay@asd.com",
+      "password": "1234",
+      "isActive": true
+    },
+    {
+      "id": "XgwawsCxk1RZkrLrIsAEv",
+      "username": "anu",
+      "email": "anu@gmail.com",
+      "password": "1234",
+      "isActive": true
     }
   ],
   "products": [
     {
-      "id": 101,
+      "id": "101",
       "name": "Wireless Mouse",
       "price": 25.99,
       "stock": 100
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "Keyboard",
       "price": 45.5,
       "stock": 50
@@ -31,7 +88,8 @@
           "productId": 102,
           "quantity": 1
         }
-      ]
+      ],
+      "id": "9dce"
     }
   ]
 }

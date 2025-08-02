@@ -2,15 +2,24 @@ import { nanoid } from 'nanoid'
 import React from 'react'
 // import {useForm} from 'react-form-hook'
 import { useForm } from 'react-hook-form'
-import { Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+import { Link, useNavigate } from 'react-router-dom'
+import { asyncregisteracton } from '../store/actions/userAction.jsx'
+
+
 const Register = () => {
      const {register ,reset,handleSubmit}=useForm()
 
+     const dispatch=useDispatch();
+
+     const navigate=useNavigate();
 
 const RegisterHandler=(user)=>{
      user.id=nanoid()
-     console.log("user", user);
-     
+     user.isActive=true
+     dispatch(asyncregisteracton(user))
+     reset();
+     navigate("/login");
 
 }
   return (
